@@ -2,7 +2,11 @@ buildVariable: false
 familyName: Noto Sans Lycian
 googleFonts: true
 includeSubsets:
-- from: Noto Sans
-  name: GF_Latin_Core
+  - from: Noto Sans
+    name: GF_Latin_Core
+  - from: Noto Sans
+    ranges:
+      - start: 0x205A
+        end: 0x205A
 sources:
-- NotoSansLycian.designspace
+  - NotoSansLycian.designspace
